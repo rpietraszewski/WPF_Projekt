@@ -14,3 +14,4 @@ D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.dll
 D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.pdb
 D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.Migrations.Initial.resources
 D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.csproj.GenerateResource.cache
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.Migrations.CategoryAdd.resources

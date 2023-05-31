@@ -59,6 +59,10 @@
     <Compile Include="Migrations\202305311150547_Initial.designer.cs">
       <DependentUpon>202305311150547_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305311439448_CategoryAdd.cs" />
+    <Compile Include="Migrations\202305311439448_CategoryAdd.designer.cs">
+      <DependentUpon>202305311439448_CategoryAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlToDoItemData.cs" />
@@ -77,6 +81,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202305311150547_Initial.resx">
       <DependentUpon>202305311150547_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305311439448_CategoryAdd.resx">
+      <DependentUpon>202305311439448_CategoryAdd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
