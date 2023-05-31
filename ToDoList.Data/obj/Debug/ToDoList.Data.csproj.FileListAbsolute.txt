@@ -1,0 +1,16 @@
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\ToDoList.Data.dll.config
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\ToDoList.Data.dll
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\ToDoList.Data.pdb
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\EntityFramework.dll
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\ToDoList.Logic.dll
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\ToDoList.Logic.pdb
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\EntityFramework.xml
+D:\WPF_Projekt\ToDoList.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.csproj.AssemblyReference.cache
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.csproj.CoreCompileInputs.cache
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.csproj.CopyComplete
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.dll
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.pdb
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.Migrations.Initial.resources
+D:\WPF_Projekt\ToDoList.Data\obj\Debug\ToDoList.Data.csproj.GenerateResource.cache

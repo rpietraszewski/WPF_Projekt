@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Custom.Controls",
+    "\\Custom.Controls\\Properties",
+    "\\ToDoList",
+    "\\ToDoList.Data",
+    "\\ToDoList.Data\\Properties",
+    "\\ToDoList.Logic"
+  ],
+  "SelectedNode": "\\ToDoList.Data\\InMemoryToDoItemData.cs",
+  "PreviewInSolutionExplorer": false
+}

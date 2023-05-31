@@ -1,0 +1,6 @@
+D:\WPF_Projekt\ToDoList.Logic\bin\Debug\ToDoList.Logic.dll
+D:\WPF_Projekt\ToDoList.Logic\bin\Debug\ToDoList.Logic.pdb
+D:\WPF_Projekt\ToDoList.Logic\obj\Debug\ToDoList.Logic.csproj.AssemblyReference.cache
+D:\WPF_Projekt\ToDoList.Logic\obj\Debug\ToDoList.Logic.csproj.CoreCompileInputs.cache
+D:\WPF_Projekt\ToDoList.Logic\obj\Debug\ToDoList.Logic.dll
+D:\WPF_Projekt\ToDoList.Logic\obj\Debug\ToDoList.Logic.pdb

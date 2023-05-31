@@ -1,0 +1,8 @@
+D:\WPF_Projekt\Custom.Controls\bin\Debug\Custom.Controls.dll
+D:\WPF_Projekt\Custom.Controls\bin\Debug\Custom.Controls.pdb
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.csproj.AssemblyReference.cache
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.Properties.Resources.resources
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.csproj.GenerateResource.cache
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.csproj.CoreCompileInputs.cache
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.dll
+D:\WPF_Projekt\Custom.Controls\obj\Debug\Custom.Controls.pdb
