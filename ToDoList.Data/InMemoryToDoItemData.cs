@@ -4,6 +4,7 @@ using System.Text;
 using System.Linq;
 using ToDoListLogic;
 using System.Threading.Tasks;
+using ToDoList.Logic;
 
 namespace ToDoList.Data
 {
@@ -21,6 +22,7 @@ namespace ToDoList.Data
                     ItemName = "Test 1",
                     DueDate = null,
                     Priority = Priority.Medium,
+                    Category = Category.Job,
                     IsCompleted = false,
                 },
                 new ToDoItem
@@ -29,6 +31,7 @@ namespace ToDoList.Data
                     ItemName = "Test 2",
                     DueDate = null,
                     Priority = Priority.Low,
+                    Category = Category.Health,
                     IsCompleted = false,
                 },
                 new ToDoItem
@@ -37,6 +40,7 @@ namespace ToDoList.Data
                     ItemName = "Test 3",
                     DueDate = DateTime.Now,
                     Priority = Priority.High,
+                    Category = Category.School,
                     IsCompleted = false,
                 },
             };
@@ -54,6 +58,16 @@ namespace ToDoList.Data
                     where i.IsCompleted == state
                     select i)
                     .Count();
+        }
+
+        public IEnumerable<ToDoItem> GetItemsByNameAndCategory(string name = null, string category = null)
+        {
+            var query = from i in toDoItems
+                        where (string.IsNullOrEmpty(name) || i.ItemName.Contains(name)) &&
+                            (string.IsNullOrEmpty(category) || i.Category.Contains(category))
+                        orderby i.ItemName
+                        select i;
+            return query;
         }
 
         public IEnumerable<ToDoItem> GetItemsByNameAndState(string name = null, bool state = false)
@@ -76,6 +90,7 @@ namespace ToDoList.Data
                 item.DueDate = updatedItem.DueDate;
                 item.Priority = updatedItem.Priority;
                 item.IsCompleted = updatedItem.IsCompleted;
+                item.Category = updatedItem.Category;
             }
         }
     }

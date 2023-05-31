@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoList.Logic;
 using ToDoListLogic;
 
 namespace ToDoList.Data
@@ -33,6 +34,18 @@ namespace ToDoList.Data
             return query;
         }
 
+        public IEnumerable<ToDoItem> GetItemsByNameAndCategory(string name = null, string category = null)
+        {
+            var query = from i in db.ToDoItems
+                        where (string.IsNullOrEmpty(name) || i.ItemName.Contains(name)) &&
+                            (string.IsNullOrEmpty(category) || i.Category.Contains(category))
+                        orderby i.DueDate.HasValue descending,  // Display items with DueDate first
+                                i.DueDate                       // Display items with DueDate == null after
+                        select i;
+
+            return query;
+        }
+
         public IEnumerable<ToDoItem> GetItemsByNameAndState(string name = null, bool state = false)
         {
             var query = from i in db.ToDoItems
@@ -57,6 +70,7 @@ namespace ToDoList.Data
                     result.DueDate = updatedItem.DueDate;
                     result.Priority = updatedItem.Priority;
                     result.IsCompleted = updatedItem.IsCompleted;
+                    result.Category = updatedItem.Category;
                 }
             }
 
